@@ -12,15 +12,15 @@ export default function App() {
       <View>
         <View>
           <Text>Texto 1</Text>
-          <Image source={require('./assets/panico.jpg')} />
+          <Image source={require('./assets/sapo.png')} />
           <Text>Texto 1</Text>
         </View>
         <View>
           <Text>Texto 1</Text>
-          <Image source={require('./assets/panico.jpg')} />
+          <Image source={require('./assets/sapo.png')} />
           <Text>Texto 1</Text>
           <Text>Texto 1</Text>
-          <Image source={require('./assets/panico.jpg')} />
+          <Image source={require('./assets/sapo.png')} />
           <Text>Texto 1</Text>
         </View>
       </View>

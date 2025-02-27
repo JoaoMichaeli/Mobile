@@ -22,7 +22,6 @@ export default function App() {
           <Text>Texto 1</Text>
           <Image source={require('./assets/panico.jpg')} />
           <Text>Texto 1</Text>
-          saddsadas
         </View>
       </View>
     </View>

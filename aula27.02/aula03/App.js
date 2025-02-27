@@ -11,7 +11,7 @@ export default function App() {
       </View>
       <View>
         <View>
-          <Text>Texto 1</Text>
+          <Text>Ja sonhou com esse homem ?</Text>
           <Image source={require('./assets/sapo.png')} />
           <Text>Texto 1</Text>
         </View>

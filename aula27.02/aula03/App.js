@@ -132,7 +132,7 @@ const App = () => {
  
           {/* Right Column */}
           <View style={styles.rightColumn}>
-            <Text style={styles.subHeadline}>BLoquinhos atrapalham as aulas da FIAP</Text>
+            <Text style={styles.subHeadline}>Bloquinhos atrapalham as aulas da FIAP</Text>
             <Text>Os bloquinhos de Carnaval em São Paulo são uma tradição que atrai multidões, trazendo alegria, música e muita festa para as ruas da cidade. No entanto, essa animação toda pode gerar desafios para quem precisa manter a rotina normal de estudos e trabalho, como os alunos da FIAP.</Text>
             <Text style={[styles.subHeadline, styles.marginTop]}>Realidade imita a ficção: Estado de saúde do Papa levanta paralelos com o filme Conclave</Text>
             <Text>A recente piora na saúde do Papa tem gerado comparações com o filme Conclave, que retrata os bastidores da sucessão papal em meio a intrigas e disputas de poder no Vaticano. Assim como na obra de ficção, a possibilidade de um novo conclave gera especulações sobre os próximos passos da Igreja Católica e seus possíveis sucessores. Enquanto o mundo acompanha apreensivo, a vida parece recriar o enredo do cinema, trazendo à tona as complexas dinâmicas do Vaticano diante de um momento decisivo.</Text>

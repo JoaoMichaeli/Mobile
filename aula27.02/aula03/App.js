@@ -170,11 +170,13 @@ const styles = StyleSheet.create({
   },
   leftColumn: {
     flex: 1,
-    padding: 10,
+    padding: 5,
+    flexWrap: 'wrap',
   },
   rightColumn: {
-    flex: 1,
-    padding: 10,
+    flex: 3,
+    padding: 5,
+    flexWrap: 'wrap',
   },
   headline: {
     fontSize: 20,

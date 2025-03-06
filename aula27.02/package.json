@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "nvm": "^0.0.4",
-    "react-native-web": "^0.19.13",
-    "yarn": "^1.22.22",
-    "yet": "^0.1.0"
-  }
-}

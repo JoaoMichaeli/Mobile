@@ -1,13 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
 import { Button, StyleSheet, Text, View, Image} from 'react-native'; // importação da img
  
 export default function App() {
   return (
-    <View>
-      <View>
-        <Button title='Clique aqui' onPress={() => {}}/>
-        <Button title='Clique aqui' onPress={() => {}}/>
-        <Button title='Clique aqui' onPress={() => {}}/>
+    <View style={styles.container}>
+      <View style={styles.topBar}>
+        <Button title='Home' onPress={() => {}}/>
+        <Button title='Notícias' onPress={() => {}}/>
+        <Button title='Perfil' onPress={() => {}}/>
       </View>
       <View>
         <View>
@@ -24,6 +23,11 @@ export default function App() {
           <Text>Texto 1</Text>
         </View>
       </View>
+      <View>
+        <Button title='Clique aqui' onPress={() => {}}/>
+        <Button title='Clique aqui' onPress={() => {}}/>
+        <Button title='Clique aqui' onPress={() => {}}/>
+      </View>
     </View>
   );
 }
@@ -35,6 +39,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  topBar: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    padding: 10,
+    backgroundColor: 'blue'
+  }
 });
- 
  

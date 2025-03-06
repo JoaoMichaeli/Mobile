@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, Button, StyleSheet, Image, ScrollView } from 'react-native';
- 
+
+//asdadsad
 const App = () => {
   return (
     <View style={styles.container}>

@@ -1,38 +1,30 @@
-import React from 'react';
-import { StyleSheet, Text, View, Button } from 'react-native';
+import React from "react"
+import { StyleSheet, Text, View, Button } from "react-native"
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Classe name="User" />
+  return(
+    <View>
+      <Classe name="User"/>
     </View>
-  );
+  )
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
-
-const Classe = (props) => {
-    const [titleText, setTitleText] = React.useState('Ninguem pressionou o botao');
-
-    const onPressButton = (name) => {
-        setTitleText(`Botao pressionado por ${name}`);
-    };
-
-    return (
-      <View>
-        <Text>
-        {titleText}
-        </Text>
-        <Button title='Stop capturing'
-        onPress={() => onPressButton(props.name)}
-        color='#FF0000'></Button>
-      </View>
-    );
+class Classe extends React.PureComponent{
+  state = {
+    titleText: "Ninguem apertou el botón!"
+  }
+  onPressButton = (name) => {
+    this.setState({titleText: `${name} apertou o boton!`})
+  }
+  render(){
+    return (<View>
+      <Text>
+        {this.state.titleText}
+      </Text>
+      <Button
+      title="Stop Capturing"
+      onPress={() => this.onPressButton(this.props)}
+      color="#FF0000"/>
+    </View>)
+  }
 }

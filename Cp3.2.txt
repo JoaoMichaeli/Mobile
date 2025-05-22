@@ -1,0 +1,7 @@
+Você acabou de usar uma ferramenta de avaliação. Essa não será a única da sua vida. Mas creio que essa será uma das primeiras onde você verá o código e opinará sobre ele.
+Dado todos os seus conhecimentos de React e React Native, queremos que, dado o codigo que você pode descer em: https://github.com/tommymolto/provafiap.git
+Dê 3 sugestões de melhoria de código e usabilidade, descrevendo como faze-la (100%.)
+Claro que não é valido "tem que melhorar o login". Descreva o que, e descreva sua ideia de codigo, quando possivel.
+Ex: acho que podemos encapsular o codigo de quiz em uma componente question, tirando todo o codigo de controle de que questõ é exibida da mesma tela que randomiza e exibe a questao em si
+Implemente 1 das sugestões e solicite um Pull Request (+1 ponto na nota por PR aprovada até 23/5, 23:59)
+O Pull Request não ser aceito não significa erro. Mas seu pull request deve estar funcionando. 

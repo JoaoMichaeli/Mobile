@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "fiap-log",
+    "slug": "fiap-log",
+    "version": "1.0.0",
+    "icon": "./assets/images/ios-light.png",
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#040404",
+          "image": "./assets/images/splash-icon-light.png",
+          "imageWidth": 200
+        }
+      ],
+      "expo-font",
+      [
+        "react-native-vision-camera",
+        {
+          "cameraPermissionText": "$(PRODUCT_NAME) needs access to your Camera."
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.anonymous.fiaplog",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#040404"
+      },
+      "permissions": [
+        "android.permission.CAMERA"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.anonymous.fiaplog",
+      "infoPlist": {
+        "NSCameraUsageDescription": "$(PRODUCT_NAME) needs access to your Camera."
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4cd1eed9-521c-4cb4-a8d2-c1db792d97a8"
+      }
+    }
+  }
+}

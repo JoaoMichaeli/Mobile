@@ -1,8 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import WelcomeScreen from './src/pages/WelcomeScreen';
-import Counter from './src/components/Counter';
+import Counter from './src/pages/Counter';
 
 export default function App() {
   return (

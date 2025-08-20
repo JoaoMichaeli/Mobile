@@ -46,7 +46,6 @@ const LanguageSelector = () => {
   )
 }
 
-
 export default function WelcomeScreen() {
   const { t } = useTranslation();
 

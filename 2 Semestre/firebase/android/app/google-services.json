@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "16532330153",
+    "project_id": "pos-joao-class",
+    "storage_bucket": "pos-joao-class.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16532330153:android:fd3455e29daf6190cdbbb8",
+        "android_client_info": {
+          "package_name": "com.joao.posinclass"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC8ACvI3iFoQYHqqbFKl5mS8l05-TAJfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

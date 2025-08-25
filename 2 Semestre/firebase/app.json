@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "pos-in-class",
+    "slug": "pos-in-class",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.joao.posinclass"
+    },
+    "ios": {
+      "bundleIdentifier": "com.joao.posinclass"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "@react-native-firebase/crashlytics",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ]
+  }
+}

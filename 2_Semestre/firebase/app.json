@@ -2,9 +2,12 @@
   "expo": {
     "name": "pos-in-class",
     "slug": "pos-in-class",
+    "newArchEnabled": true,
     "version": "1.0.0",
     "android": {
-      "package": "com.joao.posinclass"
+      "package": "com.joao.posinclass",
+      "googleServicesFile":"./src/firebase/google-services.json"
+      
     },
     "ios": {
       "bundleIdentifier": "com.joao.posinclass"

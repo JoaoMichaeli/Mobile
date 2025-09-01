@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "pos-in-class",
+    "slug": "pos-in-class",
+    "version": "1.0.0",
+    "newArchEnabled": false,
+    "android": {
+      "package": "com.lucasrs.posinclass",
+      "googleServicesFile": "./src/firebase/google-services.json"
+    },
+    "ios": {
+      "bundleIdentifier": "com.lucasrs.posinclass",
+      "googleServicesFile": "./src/firebase/GoogleService-Info.plist"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "expo-font",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ]
+  }
+}

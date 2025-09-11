@@ -8,7 +8,6 @@ export default function Register() {
   const handleRegister = () => {
     console.log("Email:", email);
     console.log("Senha:", senha);
-    // Aqui você pode integrar com seu backend ou Firebase
     alert("Registro realizado!");
   };
 
